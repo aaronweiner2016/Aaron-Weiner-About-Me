@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(32, 74, 90);
+}
+
+
+#bio-name{
+    height: 300px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.nav-boxes{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-boxes a{
+    color: rgb(255, 157, 28);
+    font-size: 1.3rem;
+}
+
+
+nav{
+    justify-content: flex-end;
+}
+
+#name{
+    justify-content: ;
+}
+
+#name h1{
+    color: rgba(247, 140, 0, 0.726);
+}
+
+
+
+#name{
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#bio-name h1{
+    font-size: 40px;
+}
+
+#portrait-outline{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#portrait{
+    height: 300px;
+    width: 300px;
+    background-color: cornsilk;
+    float: left;
+}
+
+
+#about-me{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#me{
+    height: 400px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-titles{
+    height: 250px;
+    width: 250px;
+    border-right: black dotted 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Summary{
+    height: 400px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Summary ul p{
+    font-size: 25px;
+    color: rgba(247, 140, 0, 0.726);
+    margin: 3px;
+}
+
+.section-titles h1{
+    font-size: 45px;
+    color: rgba(247, 140, 0, 0.726);
+}
+
+
+#my-projects{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#title-box{
+    height: 400px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+#my-work-box{
+    height: 400px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #out-place{
+      height:200px;
+      width: 70%;
+      border: blanchedalmond solid 2px;
+      display: flex;
+      justify-content: center;
+    }
+
+#placeholder{
+    width: 100%;
+    height: 200px;
+}
+
+.link-pic{
+    height: 175px;
+    width: 100%;
+}
+
+
+.link{
+    height: 25px;
+    width: 100%;
+    background-color: grey;
+}
+
+.placeholder{
+    width: 35%;
+    height: 200px;
+    outline: solid blanchedalmond 2px;
+}
+
+footer{
+    width: auto;
+    height: 50px;
+    border-top: black 2px solid;
+    background-color: grey;
+}
+
+#contact-information{
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact-title{
+    height: 400px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-info-text{
+    height: 400px;
+    width: 75%;
+}
+
+
+
+@media screen and (max-width: 1052px){
+    section#about-me, section#my-projects, section#contact-information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1052px){
+    .section-titles{
+        border-right: transparent;
+        border-bottom: black 5px dotted;
+        display: flex;
+        
+    }
+}
+
+@media screen and (max-width: 1052px){
+    #about-me{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1052px){
+    #about-me, #my-projects, #contact-information {
+        min-width: 50%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 605px){
+    nav, div#name{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    } 
+}
