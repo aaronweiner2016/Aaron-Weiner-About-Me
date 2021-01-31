@@ -9,7 +9,7 @@ body{
 
 
 #bio-name{
-    height: 300px;
+    min-height: 300px;
     min-width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body{
 }
 
 nav{
-    width: 100%;
+    min-width: 100%;
     min-height: 60px;
     display: flex;
     flex-direction: row;
@@ -28,8 +28,8 @@ nav{
 
 
 .nav-boxes{
-    height: 40px;
-    width: 200px;
+    min-height: 40px;
+    min-width: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,8 +58,8 @@ nav{
 
 
 #name{
-    height: 100px;
-    width: auto;
+    min-height: 100px;
+    min-width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,23 +77,23 @@ nav{
 }
 
 #portrait{
-    height: 300px;
-    width: 300px;
+    min-height: 300px;
+    min-width: 300px;
     background-color: cornsilk;
     float: left;
 }
 
 
 #about-me{
-    height: 400px;
-    width: 100%;
+    min-height: 400px;
+    min-width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #me{
-    height: 400px;
-    width: 25%;
+    min-height: 400px;
+    min-width: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -101,8 +101,8 @@ nav{
 }
 
 .section-titles{
-    height: 250px;
-    width: 250px;
+    min-height: 250px;
+    min-width: 250px;
     border-right: black dotted 3px;
     display: flex;
     justify-content: center;
@@ -111,8 +111,8 @@ nav{
 }
 
 #Summary{
-    height: 400px;
-    width: 75%;
+    min-height: 400px;
+    min-width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,15 +131,15 @@ nav{
 
 
 #my-projects{
-    height: 600px;
-    width: 100%;
+    min-height: 600px;
+    min-width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #title-box{
-    height: 400px;
-    width: 25%;
+    min-height: 400px;
+    min-width: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -149,8 +149,8 @@ nav{
 }
 
 #my-work-box{
-    height: 400px;
-    width: 75%;
+    min-height: 400px;
+    min-width: 75%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -158,53 +158,53 @@ nav{
   }
 
   #out-place{
-      height:200px;
-      width: 70%;
+      min-height:200px;
+      min-width: 70%;
       border: blanchedalmond solid 2px;
       display: flex;
       justify-content: center;
     }
 
 #placeholder{
-    width: 100%;
-    height: 200px;
+    min-width: 100%;
+    min-height: 200px;
 }
 
 .link-pic{
-    height: 175px;
-    width: 100%;
+    min-height: 175px;
+    min-width: 100%;
 }
 
 
 .link{
-    height: 25px;
-    width: 100%;
+    min-height: 25px;
+    min-width: 100%;
     background-color: grey;
 }
 
 .placeholder{
-    width: 35%;
-    height: 200px;
+    min-width: 35%;
+    min-height: 200px;
     outline: solid blanchedalmond 2px;
 }
 
 footer{
-    width: auto;
-    height: 50px;
+    min-width: auto;
+    min-height: 50px;
     border-top: black 2px solid;
     background-color: grey;
 }
 
 #contact-information{
     min-height: 400px;
-    width: 100%;
+    min-width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #contact-title{
-    height: 400px;
-    width: 25%;
+    min-height: 400px;
+    min-width: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -212,8 +212,12 @@ footer{
 }
 
 #contact-info-text{
-    height: 400px;
-    width: 75%;
+    min-height: 400px;
+    min-width: 75%;
+}
+
+.contact-boxes{
+    min-width: ;
 }
 
 
