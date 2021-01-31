@@ -182,13 +182,6 @@ nav{
     margin: 10px;
 }
 
-footer{
-    width: auto;
-    height: 50px;
-    border-top: black 2px solid;
-    background-color: grey;
-}
-
 #contact-information{
     min-height: 400px;
     width: 100%;
@@ -236,6 +229,20 @@ button:hover{
 }
 
 
+footer{
+    width: auto;
+    height: 50px;
+    border-top: black 2px solid;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1{
+    font-size: 20px;
+    color: rgb(3, 3, 61);
+}
 
 
 @media screen and (max-width: 1052px){
