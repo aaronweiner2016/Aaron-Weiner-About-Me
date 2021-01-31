@@ -9,7 +9,7 @@ body{
 
 
 #bio-name{
-    min-height: 300px;
+    height: 300px;
     min-width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body{
 }
 
 nav{
-    min-width: 100%;
+    width: 100%;
     min-height: 60px;
     display: flex;
     flex-direction: row;
@@ -28,8 +28,8 @@ nav{
 
 
 .nav-boxes{
-    min-height: 40px;
-    min-width: 200px;
+    height: 40px;
+    width: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,8 +58,8 @@ nav{
 
 
 #name{
-    min-height: 100px;
-    min-width: auto;
+    height: 100px;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,16 +71,18 @@ nav{
 }
 
 #portrait-outline{
+    padding-top: 40px;
     min-width: 100%;
     display: flex;
     justify-content: center;
 }
 
 #portrait{
-    min-height: 300px;
-    min-width: 300px;
+    height: 300px;
+    width: 300px;
     background-color: cornsilk;
     float: left;
+    border-radius: 40px;
 }
 
 
@@ -92,8 +94,8 @@ nav{
 }
 
 #me{
-    min-height: 400px;
-    min-width: 25%;
+    height: 400px;
+    width: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -101,8 +103,8 @@ nav{
 }
 
 .section-titles{
-    min-height: 250px;
-    min-width: 250px;
+    height: 250px;
+    width: 250px;
     border-right: black dotted 3px;
     display: flex;
     justify-content: center;
@@ -112,7 +114,7 @@ nav{
 
 #Summary{
     min-height: 400px;
-    min-width: 75%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,15 +133,15 @@ nav{
 
 
 #my-projects{
-    min-height: 600px;
-    min-width: 100%;
+    height: 600px;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #title-box{
-    min-height: 400px;
-    min-width: 25%;
+    height: 400px;
+    width: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -149,62 +151,54 @@ nav{
 }
 
 #my-work-box{
-    min-height: 400px;
-    min-width: 75%;
+    height: 400px;
+    width: 75%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  #out-place{
-      min-height:200px;
-      min-width: 70%;
-      border: blanchedalmond solid 2px;
-      display: flex;
-      justify-content: center;
-    }
+#out-place{
+    height:200px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
 
 #placeholder{
-    min-width: 100%;
-    min-height: 200px;
+    width: 100%;
+    height: 200px;
 }
 
 .link-pic{
-    min-height: 175px;
-    min-width: 100%;
-}
-
-
-.link{
-    min-height: 25px;
-    min-width: 100%;
-    background-color: grey;
+    height: 200px;
+    width: 100%;
 }
 
 .placeholder{
-    min-width: 35%;
-    min-height: 200px;
-    outline: solid blanchedalmond 2px;
+    width: 35%;
+    height: 200px;
+    margin: 10px;
 }
 
 footer{
-    min-width: auto;
-    min-height: 50px;
+    width: auto;
+    height: 50px;
     border-top: black 2px solid;
     background-color: grey;
 }
 
 #contact-information{
     min-height: 400px;
-    min-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #contact-title{
-    min-height: 400px;
-    min-width: 25%;
+    height: 400px;
+    width: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -212,13 +206,35 @@ footer{
 }
 
 #contact-info-text{
-    min-height: 400px;
-    min-width: 75%;
+    height: 400px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .contact-boxes{
-    min-width: ;
+    width: 350px;
+    height: 50px;
+    border: grey solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 40px;
 }
+
+.contact-boxes{
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+
 
 
 
@@ -262,4 +278,25 @@ footer{
         justify-content: center;
         align-items:center;
     } 
+}
+
+@media screen and (max-width: 1450px){
+    #contact-info-text{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 467px){
+    .contact-boxes{
+        font-size: 15px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .link-pic, .placeholder, #placeholder{
+        height: 150px;
+        margin: 5px;
+    }
 }
