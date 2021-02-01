@@ -47,10 +47,6 @@ nav{
     justify-content: flex-end;
 }
 
-#name{
-    justify-content: ;
-}
-
 #name h1{
     color: rgb(247, 140, 0);
 }
@@ -324,5 +320,3 @@ footer h1{
         max-height: 175px;
     }
 }
-
-@media screen
