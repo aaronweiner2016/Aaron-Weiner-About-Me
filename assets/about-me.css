@@ -77,10 +77,9 @@ nav{
     justify-content: center;
 }
 
-#portrait{
+#portrait, #portrait img{
     height: 300px;
-    width: 300px;
-    background-color: cornsilk;
+    width: 450px;
     float: left;
     border-radius: 40px;
 }
@@ -316,5 +315,12 @@ footer h1{
     .link-pic, .placeholder, #placeholder{
         height: 150px;
         margin: 5px;
+    }
+}
+
+@media screen and (max-width: 473px){
+    #portrait, #portrait img{
+        max-width: 275px;
+        max-height: 175px;
     }
 }
