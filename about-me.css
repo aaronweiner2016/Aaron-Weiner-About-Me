@@ -38,7 +38,7 @@ nav{
 
 
 .nav-boxes a{
-    color: rgb(255, 157, 28);
+    color: rgb(255, 145, 0);
     font-size: 1.3rem;
 }
 
@@ -126,10 +126,6 @@ nav{
     margin: 3px;
 }
 
-#Summary ul p1{
-    color: rgb(211, 208, 16);
-}
-
 .section-titles h1{
     font-size: 45px;
     color: rgb(247, 140, 0);
@@ -137,14 +133,14 @@ nav{
 
 
 #my-projects{
-    min-height: 600px;
+    height: 600px;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #title-box{
-    max-height: 400px;
+    height: 400px;
     width: 25%;
     display: flex;
     flex-direction: row;
@@ -232,13 +228,15 @@ nav{
 }
 
 .contact-boxes a{
+    color: rgb(255, 166, 0);
+}
+
+.contact-boxes{
     font-size: 20px;
-    color: rgb(255, 145, 0);
 }
 
 button:hover{
     background-color: whitesmoke;
-    color: blue;
 }
 
 
@@ -254,7 +252,7 @@ footer{
 
 footer h1{
     font-size: 20px;
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
 
@@ -308,7 +306,7 @@ footer h1{
 }
 
 @media screen and (max-width: 467px){
-    .contact-boxes, .contact-boxes a{
+    .contact-boxes{
         font-size: 15px;
         width: 250px;
     }
