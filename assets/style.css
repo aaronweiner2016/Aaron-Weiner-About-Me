@@ -322,7 +322,7 @@ footer h1{
 }
 
 @media screen and (max-width: 310px){
-    #summary ul p{
-        font-size: 17px;
+    #Summary ul p{
+        font-size: 22px;
     }
 }
