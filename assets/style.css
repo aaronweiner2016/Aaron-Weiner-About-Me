@@ -40,6 +40,15 @@ nav{
 .nav-boxes a{
     color: rgb(255, 145, 0);
     font-size: 1.3rem;
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+.nav-boxes a:hover{
+    opacity: .8;
+    transition: .2s ease;
+    color: white;
 }
 
 
@@ -51,7 +60,9 @@ nav{
     color: rgb(247, 140, 0);
 }
 
-
+#name h1:hover{
+    color: blueviolet;
+}
 
 #name{
     height: 100px;
@@ -67,6 +78,7 @@ nav{
 }
 
 #portrait-outline{
+    min-height: 400px;
     padding-top: 40px;
     min-width: 100%;
     display: flex;
@@ -78,6 +90,11 @@ nav{
     width: 450px;
     float: left;
     border-radius: 40px;
+}
+
+#portrait:hover{
+    transition: 2s ease;
+    transform: rotate(360deg);
 }
 
 
@@ -103,8 +120,14 @@ nav{
     border-right: black dotted 3px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
+}
+
+.section-titles:hover{
+    transform: rotate(180deg);
+    border-left: black dotted 10px ;
+    border-right: transparent;
+    transition: 2s ease;
 }
 
 #Summary{
@@ -247,7 +270,16 @@ footer{
 
 footer h1{
     font-size: 20px;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 68, 255);
+}
+
+footer:hover{
+    background-color: rgb(255, 0, 170);
+}
+
+footer h1:hover{
+    color: rgb(13, 255, 13);
+    align-self: flex-end;
 }
 
 
@@ -263,10 +295,15 @@ footer h1{
     .section-titles{
         border-right: transparent;
         border-bottom: black 5px dotted;
-        display: flex;
-        
+        display: flex;   
     }
 }
+
+@media screen and (max-width: 1052px){
+    .section-titles:hover{
+        border-left: transparent;
+        transform: rotate(360deg);
+    }
 
 @media screen and (max-width: 1052px){
     #about-me{
