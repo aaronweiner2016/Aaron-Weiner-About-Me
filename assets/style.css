@@ -118,9 +118,7 @@ nav{
 }
 
 .section-titles:hover{
-    transform: rotate(180deg);
-    border-left: black dotted 10px ;
-    border-right: transparent;
+    transform: rotate(360deg);
     transition: 2s ease;
 }
 
@@ -276,7 +274,6 @@ footer h1:hover{
     align-self: flex-end;
 }
 
-
 @media screen and (max-width: 1052px){
     section#about-me, section#my-projects, section#contact-information{
         display: flex;
@@ -357,3 +354,4 @@ footer h1:hover{
         font-size: 22px;
     }
 }
+
