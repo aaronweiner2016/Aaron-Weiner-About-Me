@@ -92,12 +92,6 @@ nav{
     border-radius: 40px;
 }
 
-#portrait:hover{
-    transition: 2s ease;
-    transform: rotate(360deg);
-}
-
-
 #about-me{
     min-height: 400px;
     min-width: 100%;
