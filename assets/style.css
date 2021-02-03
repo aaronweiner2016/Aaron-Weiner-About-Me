@@ -7,7 +7,7 @@ body{
     background-color: rgb(32, 74, 90);
 }
 
-
+        /*header*/
 #bio-name{
     height: 300px;
     min-width: 100%;
@@ -75,6 +75,7 @@ nav{
 #bio-name h1{
     font-size: 40px;
 }
+    /*Portrait section*/
 
 #portrait-outline{
     min-height: 400px;
@@ -91,6 +92,7 @@ nav{
     border-radius: 40px;
 }
 
+    /*About me section*/
 #about-me{
     min-height: 400px;
     min-width: 100%;
@@ -142,6 +144,7 @@ nav{
     color: rgb(247, 140, 0);
 }
 
+    /*My projects section*/
 #my-projects{
     min-height: 600px;
     width: 100%;
@@ -206,6 +209,7 @@ nav{
     margin: 10px;
 }
 
+    /*Contact section*/
 #contact-information{
     min-height: 400px;
     width: 100%;
@@ -255,7 +259,7 @@ button:hover{
     background-color: whitesmoke;
 }
 
-
+/*Footer section*/
 footer{
     width: auto;
     height: 50px;
