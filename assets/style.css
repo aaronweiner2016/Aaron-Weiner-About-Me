@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-
+    /*Need to understand REM and EM on a deeper level and come back to apply it*/
 body{
     background-color: rgb(32, 74, 90);
 }
@@ -50,7 +50,6 @@ nav{
     transition: .2s ease;
     color: white;
 }
-
 
 nav{
     justify-content: flex-end;
@@ -121,6 +120,7 @@ nav{
     transform: rotate(360deg);
     transition: 2s ease;
 }
+    /*Come back and take out later, not professional*/
 
 #Summary{
     min-height: 400px;
@@ -135,12 +135,12 @@ nav{
     color: rgb(247, 140, 0);
     margin: 3px;
 }
+    /*May be a better way to format my pargraphs*/
 
 .section-titles h1{
     font-size: 45px;
     color: rgb(247, 140, 0);
 }
-
 
 #my-projects{
     min-height: 600px;
@@ -279,6 +279,7 @@ footer h1:hover{
     color: rgb(13, 255, 13);
     align-self: flex-end;
 }
+    /*Take out later down road "not professional"*/
 
 @media screen and (max-width: 1052px){
     section#about-me, section#my-projects, section#contact-information{
@@ -301,6 +302,7 @@ footer h1:hover{
         border-left: transparent;
         transform: rotate(360deg);
     }
+    /*Take out later down road "not professional"*/
 
 @media screen and (max-width: 1052px){
     #about-me{
