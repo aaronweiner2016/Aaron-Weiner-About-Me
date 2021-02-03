@@ -171,7 +171,7 @@ nav{
 
 #out-place{
     min-height:200px;
-    width: 70%;
+    width: 61%;
     display: flex;
     justify-content: center;
 }
@@ -189,13 +189,19 @@ nav{
     border: silver solid 2px;
 }
 
+#my-work-box h3{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+
 .link-pic:hover{
     opacity: 0.3;
     transition: .3s ease;
 }
 
 .placeholder{
-    width: 35%;
+    width: 45%;
     height: 200px;
     margin: 10px;
 }
@@ -335,7 +341,7 @@ footer h1:hover{
     }
 }
 
-@media screen and (max-width: 440px){
+@media screen and (max-width: 550px){
     .link-pic, .placeholder, #placeholder{
         height: 150px;
         margin: 5px;
@@ -349,8 +355,20 @@ footer h1:hover{
     }
 }
 
+@media screen and (max-width: 473px){
+    #portrait-outline{
+        min-height: 200px;
+    }
+}
+
 @media screen and (max-width: 310px){
     #Summary ul p{
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #my-work-box h3{
+        font-size: 10px;
     }
 }
