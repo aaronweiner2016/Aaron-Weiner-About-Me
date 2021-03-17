@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Weiner</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/7cd377d9ce.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: rgb(68, 180, 225);">
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand is-full grey">
+            <a role="button" class="navbar-burger header" aria-label="menu" aria-expanded="false" id="nav-toggle">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="nav-menu" class="navbar-menu grey navmenu">
+            <a class="navbar-item colorDifferent has-text-weight-bold" href="#about-me" id="home-button">
+                About Me
+            </a>
+            <a class="navbar-item colorDifferent has-text-weight-bold" href="#projects" id="yahoo-fin-button">
+                Projects
+            </a>
+            <a class="navbar-item colorDifferent has-text-weight-bold" href="#contact-info" id="bitcoin-button">
+                Contact Info
+            </a>
+        </div>
+    </nav>
+    <!-- Title Area -->
+    <section class="hero is-primary is-flex is-align-items-center">
+        <div class="hero-body">
+            <p class="title">
+                Aaron Weiner
+            </p>
+        </div>
+    </section>
+    <!-- Picture -->
+    <section class="hero is-medium is-flex is-align-items-center pt-5"
+        style="max-height: 550px; width: 100%; height: 100%;">
+        <div class="hero-body p-0">
+            <portrait id="portrait">
+                <img src="assets/images/portrait-picture.jpg" alt="my-face"
+                    style="max-height: 500px; max-width: 600px; width: 100%; height: 100%;">
+            </portrait>
+            <div class="is-size-3 is-flex is-justify-content-center">Contact Information</div>            
+            <ul class="is-flex is-align-items-center is-flex-direction-column">
+                <li><a class="has-text-white-ter"
+                        href="mailto:Aaronjacobweiner@yahoo.com">AaronJacobWeiner@yahoo.com</a></li>
+                <li><a class="has-text-white-ter" href="#">704-778-2171</a></li>
+                <li><a class="has-text-white-ter"
+                        href="https://github.com/aaronweiner2016">Github Link</a></li>
+                <li><a class="has-text-white-ter"
+                        href="https://www.linkedin.com/in/aaron-weiner-031051202/">Linkedin Link</a>
+                </li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="hero is-medium m-0 p-0" id="about-me">
+        <div class="hero-body columns pl-0 pr-0 pb-0 m-0 pt-50">
+            <div
+                class="column is-one-fifth is-flex is-align-items-center is-justify-content-center is-size-3 has-text-weight-bold">
+                About Me
+            </div>
+            <div class="column is-four-fifths pl-6" style="border-left: black 1px solid; height: 100%;">
+                <ul>
+                    <p class="has-text-weight-bold">My name is Aaron Weiner</p>
+                    <p class="has-text-weight-bold">Born in Charlotte, NC</p>
+                    <p class="has-text-weight-bold">Enjoys meditation, doing yoga/breathwork, reading and spending time with family</p>
+                    <p class="has-text-weight-bold">Studies and practices Buddhism</p>
+                    <p class="has-text-weight-bold">Loves hiking and looking at mountains</p>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="hero is-medium" id="projects">
+        <div class="hero-body columns m-0 p-0">
+            <div
+                class="column is-one-fifth is-flex is-align-items-center is-justify-content-center is-size-3 has-text-weight-bold">
+                Projects
+            </div>
+
+            <div class="column is-four-fifths p-3" style="border-left: black 1px solid; height: 100%;">
+                <!-- Stock App -->
+                <div class="column is-full is-flex is-flex-direction-column is-align-content-center p-0">
+                    <a target="_blank" href="https://aaronweiner2016.github.io/crypto-stock-app/">
+                        <img src="./assets/images/nicks-gif.gif" alt="Stock Application">
+                    </a>
+                    <div class="modal" id="stock-modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Stock Application</p>
+                                <button id="exit-stock" class="delete" aria-label="close"></button>
+                            </header>
+                            <section class="modal-card-body">
+                                This project was made to allow a user to interact with reddit feeds, stock news and stock statistics
+                                all on one platform. It is hooked up to the Reddit API and also Yahoo Finance which both allow users
+                                to search a stock symbol and pull information pertaining to each stock.</br></br>
+
+                                Credit to:</br> 
+                                <a href="https://vmidor.github.io/Updated-portfolio/">https://vmidor.github.io/Updated-portfolio/</a> (Viktoriia Midor) 
+                            </br> 
+                                <a href="https://www.linkedin.com/in/nick-aisthorpe/">https://www.linkedin.com/in/nick-aisthorpe/</a> (Nick Aisthorpe)
+                            </section>
+                            <footer class="modal-card-foot"></footer>
+                        </div>
+                    </div>
+                    <button class="has-background-dark has-text-white-ter" id="stock-modal-btn">About Stock Application</button>
+                </div>
+
+                <!-- Other App -->
+                <div id="bottom-pics" class=" mt-3 columns is-full is-flex is-justify-content-space-between"
+                    style="padding: 12px;">
+                    <div class="is-flex is-flex-direction-column mb-3">
+                        <a target="_blank"
+                            href="https://aaronweiner2016.github.io/dailey-schedule-tracker-aaron-weiner/">
+                            <img src="./assets/images/dailey-planner.gif" alt="Dailey Planner">
+                        </a>
+                        <div class="modal" id="planner-modal">
+                            <div class="modal-background"></div>
+                            <div class="modal-card">
+                                <header class="modal-card-head">
+                                    <p class="modal-card-title">Schedule Tracker</p>
+                                    <button id="exit-planner" class="delete" aria-label="close"></button>
+                                </header>
+                                <section class="modal-card-body">
+                                  This application was designed to allow users to write in a specific time slot and save what was written
+                                  to local storage and still shows after the page is reloaded. As the work day continues the hours past
+                                  show up grey, the hours it is on will show up red and the future hours show as green.  
+                                </section>
+                                <footer class="modal-card-foot"></footer>
+                            </div>
+                        </div>
+                        <button class="has-background-dark has-text-white-ter" id="planner-modal-btn">About Schedule App</button>
+                    </div>
+                    <div style="width: 10px;"></div>
+                    <!-- Other App -->
+                    <div class="is-flex is-flex-direction-column ">
+                        <a target="_blank" href="https://aaronweiner2016.github.io/weather-update-aaron-weiner/">
+                            <img src="./assets/images/weather.gif" alt="Stock Application">
+                        </a>
+                        <div class="modal" id="weather-modal">
+                            <div class="modal-background"></div>
+                            <div class="modal-card">
+                                <header class="modal-card-head">
+                                    <p class="modal-card-title">Weather Application</p>
+                                    <button id="exit-weather" class="delete" aria-label="close"></button>
+                                </header>
+                                <section class="modal-card-body">
+                                    <!-- Content ... -->
+                                </section>
+                                <footer class="modal-card-foot"></footer>
+                            </div>
+                        </div>
+                        <button class="has-background-dark has-text-white-ter" id="weather-modal-btn">About Weather App</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    
+    <footer style="height: 30px;">        
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
