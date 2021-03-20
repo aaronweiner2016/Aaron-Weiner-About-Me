@@ -10,8 +10,7 @@
   -Below the header is a picture of myself
   -Following that is 3 sections in which represent some information about myself, some projects in which i have created, and some information so that anyone may contact me
   
-  
-![Document](https://user-images.githubusercontent.com/76064269/106518783-62cfc900-64a8-11eb-8709-64159c479451.gif)
+![updated-portfolio](https://user-images.githubusercontent.com/76064269/111882421-d875f280-898b-11eb-9100-e9f4f1059c64.gif)
 
 #Website URL:
 </br>
