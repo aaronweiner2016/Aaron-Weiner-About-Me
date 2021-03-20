@@ -11,7 +11,8 @@
   -Following that is 3 sections in which represent some information about myself, some projects in which i have created, and some information so that anyone may contact me
   
   
-![Document](https://user-images.githubusercontent.com/76064269/106518783-62cfc900-64a8-11eb-8709-64159c479451.gif)
+[updated-portfolio](https://user-images.githubusercontent.com/76064269/111882393-b11f2580-898b-11eb-8ede-1527a653dc8a.gif)
+
 
 #Website URL:
 </br>
