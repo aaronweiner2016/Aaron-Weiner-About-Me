@@ -35,9 +35,9 @@
         </div>
     </nav>
     <!-- Title Area -->
-    <section class="hero is-flex is-align-items-center has-background-light	">
+    <section class="hero is-flex is-align-items-center" style="background-color: rgb(134, 134, 191);">
         <div class="hero-body">
-            <p class="title">
+            <p class="title" style="font-size:45px;">
                 Aaron Weiner
             </p>
         </div>
@@ -50,36 +50,49 @@
                 <img src="assets/images/portrait-picture.jpg" alt="my-face"
                     style="max-height: 500px; max-width: 600px; width: 100%; height: 100%;">
             </portrait>
-            <div class="is-size-3 is-flex is-justify-content-center">Contact Information</div>            
+            <div class="is-size-3 is-flex is-justify-content-center">Contact Information</div>
             <ul class="is-flex is-align-items-center is-flex-direction-column">
-                <li><a class="has-text-white-ter"
-                        href="mailto:Aaronjacobweiner@yahoo.com">AaronJacobWeiner@yahoo.com</a></li>
-                <li><a class="has-text-white-ter" href="#">704-778-2171</a></li>
-                <li><a class="has-text-white-ter"
-                        href="https://github.com/aaronweiner2016">Github Link</a></li>
-                <li><a class="has-text-white-ter"
-                        href="https://www.linkedin.com/in/aaron-weiner-031051202/">Linkedin Link</a>
+                <li><a href="mailto:Aaronjacobweiner@yahoo.com">AaronJacobWeiner@yahoo.com</a></li>
+                <li><a href="#">704-778-2171</a></li>
+                <li><a href="https://github.com/aaronweiner2016">Github Link</a></li>
+                <li><a href="https://www.linkedin.com/in/aaron-weiner-031051202/">Linkedin
+                        Link</a>
                 </li>
-                <li><a class="has-text-white-ter"
-                    href="file:///C:/Users/Aaron%20Weiner/Downloads/Aaron_Weiner_Resume.PDF">Resume</a>
-            </li>
+                <li><a href="file:///C:/Users/Aaron%20Weiner/Downloads/Aaron_Weiner_Resume.PDF">Resume</a>
+                </li>
             </ul>
         </div>
     </section>
     <!-- Content -->
     <section class="hero is-medium m-0 p-0" id="about-me">
-        <div class="hero-body columns pl-0 pr-0 pb-0 m-0 pt-50">
+        <div class="hero-body columns pl-0 pr-0 pb-0 m-0 pt-5">
             <div
                 class="column is-one-fifth is-flex is-align-items-center is-justify-content-center is-size-3 has-text-weight-bold">
                 About Me
             </div>
             <div class="column is-four-fifths pl-6 borders" style="border-left: black 1px solid; height: 100%;">
-                <ul>
-                    <p class="has-text-weight-bold">My name is Aaron Weiner</p>
-                    <p class="has-text-weight-bold">Born in Charlotte, NC</p>
+
+                <p class="has-text-weight-bold">
+                    My name is Aaron Weiner and I am from Charlotte, North Carolina. I went
+                    to Providence High School and competitively played soccer growing up.
+                    In my spare time i like to spend time with my family/girlfriend, do yoga/breathwork, travel to the
+                    mountains where I like to hike, collect plants and invest/research the stock market.
+                </p></br>
+                <p class="has-text-weight-bold">
+                    In 2020 i started getting more into online jobs and found a way to sell bitcoin but when the market
+                    became difficult to navigate and I decided to
+                    join the UNC Full Stack Bootcamp for web development. In this class i learned how to code in HTML,
+                    CSS, Vanilla Javascript and Jquery for the front end.
+                    I also learned how to utilize Bootstrap, Bulma and various other tools to help with front end
+                    functionality. For back end development, i learned how to utilize
+                    MySQL, Sequelize, Express.js, Node.js and Handlebars.
+
+                </p>
+
+                <!-- <p class="has-text-weight-bold">Born in Charlotte, NC</p>
                     <p class="has-text-weight-bold">Enjoys meditation, doing yoga/breathwork, reading and spending time with family</p>
                     <p class="has-text-weight-bold">Studies and practices Buddhism</p>
-                    <p class="has-text-weight-bold">Loves hiking and looking at mountains</p>
+                    <p class="has-text-weight-bold">Loves hiking and looking at mountains</p> -->
                 </ul>
             </div>
         </div>
@@ -87,95 +100,132 @@
     <section class="hero is-medium" id="projects">
         <div class="hero-body columns m-0 p-0">
             <div
-            
                 class="column is-one-fifth is-flex is-align-items-center is-justify-content-center is-size-3 has-text-weight-bold">
                 Projects
             </div>
+            <div class="container">
+                <div class="carousel">
+                    <input type="radio" name="slides" checked="checked" id="slide-1">
+                    <input type="radio" name="slides" id="slide-2">
+                    <input type="radio" name="slides" id="slide-3">
+                    <input type="radio" name="slides" id="slide-4">
+                    <input type="radio" name="slides" id="slide-5">
+                    <input type="radio" name="slides" id="slide-6">
+                    <ul class="carousel__slides">
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="./assets/images/nicks-gif.gif" alt="stock-app">
+                                </div>
+                                <figcaption>
+                                    <h3 style="font-size: 30px;">Stock Application</h3>
+                                    This project was made to allow a user to interact with reddit feeds, stock news and
+                                    stock statistics
+                                    all on one platform. It is hooked up to the Reddit API and also Yahoo Finance which
+                                    both
+                                    allow users
+                                    to search a stock symbol and pull information pertaining to each stock.
+                                    <span class="credit">Credit to:</br>
+                                        (Viktoriia Midor)
+                                        <a
+                                            href="https://vmidor.github.io/Updated-portfolio/">https://vmidor.github.io/Updated-portfolio/</a>
+                                        </br>
+                                        (Nick Aisthorpe)
+                                        <a
+                                            href="https://www.linkedin.com/in/nick-aisthorpe/">https://www.linkedin.com/in/nick-aisthorpe/</a>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="./assets/images/dailey-planner.gif" alt="daily-planner">
+                                </div>
+                                <figcaption>
+                                    <h1 style="font-size: 30px;">Daily Planner</h1>
+                                    This application was designed to allow users to write in a specific time slot and
+                                    save what was written
+                                    to local storage and still shows after the page is reloaded. As the work day
+                                    continues the hours past
+                                    show up grey, the hours it is on will show up red and the future hours show as
+                                    green.
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="./assets/images/weather.gif" alt="weather-app">
+                                </div>
+                                <figcaption>
+                                    <h3 style="font-size: 30px;">Weather Application</h3>
+                                    This application allows users to see the current and five day weather forecast for
+                                    any city they type into the search bar. The last city typed will after show up in
+                                    history.
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="./assets/images/golferPlus.png" alt="golfer-app">
+                                </div>
+                                <figcaption>
+                                    <h3 style="font-size: 30px;">Golfers Application</h3>
+                                    An app for golfers to keep track of scores hole by hole and per course. The dev team
+                                    decided to create an app that would address both total score and quota scores for
+                                    the user. There are two ways to find the score through the total score and quota. A
+                                    quota normalizes the scoring making the course an even playing field for all the
+                                    players to compete against each other no matter the skill level. Additional stretch
+                                    features are mapping and range estimation
+                                    <span class="credit">
+                                        (Josh Walters)
+                                        <a href="https://github.com/joshwalters34">https://github.com/joshwalters34</a>
+                                        </br>
+                                        (Greg Petropoulos)
+                                        <a
+                                            href="https://github.com/GregPetropoulos">https://github.com/GregPetropoulos</a>
+                                        </br>
 
-            <div class="column is-four-fifths p-3 borders" style="border-left: black 1px solid; height: 100%;">
-                <!-- Stock App -->
-                <div class="column is-full is-flex is-flex-direction-column is-align-content-center p-0">
-                    <a target="_blank" href="https://aaronweiner2016.github.io/crypto-stock-app/">
-                        <img src="./assets/images/nicks-gif.gif" alt="Stock Application">
-                    </a>
-                    <div class="modal" id="stock-modal">
-                        <div class="modal-background"></div>
-                        <div class="modal-card">
-                            <header class="modal-card-head">
-                                <p class="modal-card-title">Stock Application</p>
-                                <button id="exit-stock" class="delete" aria-label="close"></button>
-                            </header>
-                            <section class="modal-card-body">
-                                This project was made to allow a user to interact with reddit feeds, stock news and stock statistics
-                                all on one platform. It is hooked up to the Reddit API and also Yahoo Finance which both allow users
-                                to search a stock symbol and pull information pertaining to each stock.</br></br>
-
-                                Credit to:</br> 
-                                <a href="https://vmidor.github.io/Updated-portfolio/">https://vmidor.github.io/Updated-portfolio/</a> (Viktoriia Midor) 
-                            </br> 
-                                <a href="https://www.linkedin.com/in/nick-aisthorpe/">https://www.linkedin.com/in/nick-aisthorpe/</a> (Nick Aisthorpe)
-                            </section>
-                            <footer class="modal-card-foot"></footer>
-                        </div>
-                    </div>
-                    <button class="has-background-dark has-text-white-ter" id="stock-modal-btn">About Stock Application</button>
+                                        (Koalia Sanders)
+                                        <a href="https://github.com/koalias">https://github.com/koalias</a>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                    <ul class="carousel__thumbnails">
+                        <li>
+                            <label for="slide-1"><img src="./assets/images/nicks-gif.gif" alt="stock-app"></label>
+                        </li>
+                        <li>
+                            <label for="slide-2"><img src="./assets/images/dailey-planner.gif"
+                                    alt="daily-planner"></label>
+                        </li>
+                        <li>
+                            <label for="slide-3"><img src="./assets/images/weather.gif" alt="weather-app"></label>
+                        </li>
+                        <li>
+                            <label for="slide-4"><img src="./assets/images/golferPlus.png" alt="golfer-app"></label>
+                        </li>
+                    </ul>
                 </div>
-
-                <!-- Other App -->
-                <div id="bottom-pics" class=" mt-3 columns is-full is-flex is-justify-content-space-between"
-                    style="padding: 12px;">
-                    <div class="is-flex is-flex-direction-column mb-3">
-                        <a target="_blank"
-                            href="https://aaronweiner2016.github.io/dailey-schedule-tracker-aaron-weiner/">
-                            <img src="./assets/images/dailey-planner.gif" alt="Dailey Planner">
-                        </a>
-                        <div class="modal" id="planner-modal">
-                            <div class="modal-background"></div>
-                            <div class="modal-card">
-                                <header class="modal-card-head">
-                                    <p class="modal-card-title">Schedule Tracker</p>
-                                    <button id="exit-planner" class="delete" aria-label="close"></button>
-                                </header>
-                                <section class="modal-card-body">
-                                  This application was designed to allow users to write in a specific time slot and save what was written
-                                  to local storage and still shows after the page is reloaded. As the work day continues the hours past
-                                  show up grey, the hours it is on will show up red and the future hours show as green.  
-                                </section>
-                                <footer class="modal-card-foot"></footer>
-                            </div>
-                        </div>
-                        <button class="has-background-dark has-text-white-ter" id="planner-modal-btn">About Schedule App</button>
-                    </div>
-                    <div style="width: 10px;"></div>
-                    <!-- Other App -->
-                    <div class="is-flex is-flex-direction-column ">
-                        <a target="_blank" href="https://aaronweiner2016.github.io/weather-update-aaron-weiner/">
-                            <img src="./assets/images/weather.gif" alt="Stock Application">
-                        </a>
-                        <div class="modal" id="weather-modal">
-                            <div class="modal-background"></div>
-                            <div class="modal-card">
-                                <header class="modal-card-head">
-                                    <p class="modal-card-title">Weather Application</p>
-                                    <button id="exit-weather" class="delete" aria-label="close"></button>
-                                </header>
-                                <section class="modal-card-body">
-                                    <!-- Content ... -->
-                                    This application allows users to see the current and five day weather forecast for any city they type into the search bar. The last city typed will after show up in history.
-                                </section>
-                                <footer class="modal-card-foot"></footer>
-                            </div>
-                        </div>
-                        <button class="has-background-dark has-text-white-ter" id="weather-modal-btn">About Weather App</button>
-                    </div>
-                </div>
-
             </div>
+
+
+            <!-- Other App -->
+
+        </div>
 
         </div>
     </section>
-    
-    <footer style="height: 30px;">        
+
+    <section>
+
+    </section>
+
+    <footer style="height: 30px;">
     </footer>
 
 
